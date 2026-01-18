@@ -20,7 +20,7 @@ This open-source repository primarily contains the following:
 &nbsp;
 
 ## 2. Simulation Experiments:
-<img src="./simulation-results.jpg"  height=300 width=900>
+<img src="./simulation-results.jpg"  height=400 width=900>
 
 &nbsp;
 
