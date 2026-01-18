@@ -32,7 +32,7 @@ This open-source repository primarily contains the following:
 &nbsp;
 
 
-## 4. Real Experiments:
+## 4. Visualization:
 <img src="./real-expriment.png"  height=600 width=900>
 
 
@@ -65,4 +65,6 @@ If this repo helps you, please consider citing our works:
   pages={10574--10584},
   year={2023}
 }
+# ADIS+ODAUVST IEEE TPAMI Version
+
 ```
