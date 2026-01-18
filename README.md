@@ -23,7 +23,7 @@ This open-source repository primarily contains the following:
 
 
 ## 2. Real Experiments:
-<img src="./real-expriment"  height=250 width=900>
+<img src="./real-expriment.png"  height=250 width=900>
 
 
 &nbsp;
