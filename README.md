@@ -15,22 +15,32 @@ This open-source repository primarily contains the following:
 
 
 ## 1. System Configuration:
-<img src="./system.png"  height=250 width=900>
+<img src="./system.png"  height=300 width=900>
 
+&nbsp;
+
+## 2. Simulation Experiments:
+<img src="./simulation-results.jpg"  height=300 width=900>
+
+&nbsp;
+
+
+## 3. Real Experiments:
+<img src="./real-expriment.png"  height=600 width=900>
 
 
 &nbsp;
 
 
-## 2. Real Experiments:
-<img src="./real-expriment.png"  height=250 width=900>
+## 4. Real Experiments:
+<img src="./real-expriment.png"  height=600 width=900>
 
 
 &nbsp;
 
 
 
-## 3. Create Environment:
+## 5. Create Environment:
 
 - Python 3 (Recommend to use [Anaconda](https://www.anaconda.com/download/#linux))
 
@@ -40,4 +50,19 @@ This open-source repository primarily contains the following:
 
 ```shell
   pip install -r requirements.txt
+```
+
+## 6. Citation
+If this repo helps you, please consider citing our works:
+
+
+```shell
+# ADIS+CSST ICCV 2023 Version
+@inproceedings{lv2023aperture,
+  title={Aperture Diffraction for Compact Snapshot Spectral Imaging},
+  author={Lv, Tao and Ye, Hao and Yuan, Quan and Shi, Zhan and Wang, Yibo and Wang, Shuming and Cao, Xun},
+  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
+  pages={10574--10584},
+  year={2023}
+}
 ```
