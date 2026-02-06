@@ -52,11 +52,11 @@ def add_gaussian_noise(measurements, sigma):
 
 
 add_noise = False
-@torch.no_grad()
 class Measurement_Render(nn.Module):
     def __init__(self):
         super(Measurement_Render, self).__init__()
-
+        
+    @torch.no_grad()
     def forward(self, input_cube, ff_batch, psf_batch):
         conv_cube = Fast_rFFT2d_GPU_batch(input_cube, psf_batch)
         size = ff_batch.shape[2]
