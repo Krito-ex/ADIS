@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-
+@torch.no_grad()
 def Fast_rFFT2d_GPU_batch(DHSI, psf_cube):
     '''
     Args:
@@ -44,7 +44,7 @@ def Fast_rFFT2d_GPU_batch(DHSI, psf_cube):
         output_cube[i] = meas.squeeze(0)
     return output_cube
 
-
+@torch.no_grad()
 def add_gaussian_noise(measurements, sigma):
     noise = torch.normal(mean=0.0, std=sigma, size=measurements.shape, device=measurements.device)
     noisy_measurements = measurements + noise
