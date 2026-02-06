@@ -52,6 +52,7 @@ def add_gaussian_noise(measurements, sigma):
 
 
 add_noise = False
+@torch.no_grad()
 class Measurement_Render(nn.Module):
     def __init__(self):
         super(Measurement_Render, self).__init__()
